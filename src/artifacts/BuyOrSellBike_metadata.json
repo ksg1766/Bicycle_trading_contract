@@ -1,0 +1,110 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bool",
+						"name": "_success",
+						"type": "bool"
+					},
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "_output",
+						"type": "bytes"
+					}
+				],
+				"name": "calledFunction",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract BikeData",
+						"name": "_bikeData",
+						"type": "address"
+					},
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_nameOfBike",
+						"type": "string"
+					}
+				],
+				"name": "BuyBike",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_nameOfBike",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_price",
+						"type": "uint256"
+					}
+				],
+				"name": "SellBike",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src/testsrc.sol": "BuyOrSellBike"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src/testsrc.sol": {
+			"keccak256": "0xb4b17b5625f6b6f9b4387bacb7a06e536c657f433b7ee1b4697974661a59e288",
+			"urls": [
+				"bzz-raw://2c6d8b1ede7cc8b0e3d7b57d6f53c78b7d41afe2d98928b77005763601dce48b",
+				"dweb:/ipfs/QmfMd8SXV9TPVSarpRqQ4KMrMHjmhXpSe4bRNUJDiRoMuA"
+			]
+		}
+	},
+	"version": 1
+}

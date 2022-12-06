@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src/testsrc.sol": "UploadBike"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src/testsrc.sol": {
+			"keccak256": "0xcb6d2bd72968fc422350d0f3923c8c958e0e9fdda2f952f5035298fb0bf740cf",
+			"urls": [
+				"bzz-raw://5d87d614d7125973f62a8c760f228b82e9f4356a44475392f25efed4339ebc51",
+				"dweb:/ipfs/QmdMxRmWqGDX18guGSr1Qju6CTC4ngiJFtzW6WUxB6trVT"
+			]
+		}
+	},
+	"version": 1
+}

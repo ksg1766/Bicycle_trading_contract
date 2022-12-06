@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src/testsrc.sol": "UploadBikeInfo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src/testsrc.sol": {
+			"keccak256": "0xb7fa09cbb2881ee1ca01a940f94a70849cbd47e500d7a4279133594eae087162",
+			"urls": [
+				"bzz-raw://dcacfb1f381185959b3ddaf68f5351c5c92b9b85963a2da4487a2fe0acc19e71",
+				"dweb:/ipfs/QmQ8pLrKvGTHThKcLG1QQ3zzph9qm74x4dZLkyTdxGSTkX"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "payMoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src/testsrc.sol": "BuyBike"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src/testsrc.sol": {
+			"keccak256": "0x93bd42d6dc480997c3ad63bc16c68e9b5b913c11706583cbe1d46d291e479f49",
+			"urls": [
+				"bzz-raw://57efca5f744e9d87cdcf2a94693dd2113c83f2735ddecc0e69d5d00011d6822e",
+				"dweb:/ipfs/QmP64zEbmwgEggpH1P8DnoGSef2gvyhiGMiW2T1LDXszaZ"
+			]
+		}
+	},
+	"version": 1
+}
